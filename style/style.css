@@ -26,7 +26,7 @@ header{
 .menu-logo{
     display: flex;
     justify-content: space-between;
-    padding: 0 0.6em;
+    margin: 0 0.6em;
 }
 
 .menu-list{
@@ -115,6 +115,11 @@ section{
     background-color: #372865;
     border: 1px solid transparent;
     border-radius: 0.4em;
+    cursor: pointer;
+}
+
+.section-join:hover{
+    background-color: #372865bd;
 }
 
 .companies-logos{
@@ -148,6 +153,87 @@ footer p {
 footer a{
     color: white;
     font-weight: bold;
+}
+
+@media screen and (min-width: 728px){
+    header{
+        margin-top: 3.5em;
+    }
+
+    .menu-logo{
+        margin: 0 3em;
+    }
+
+    .contain{
+        padding: 0 3em;
+    }
+
+    .menu-join{
+        padding: 0.8em 0;
+    }
+
+    .menu-list li{
+        font-size: 1.3em;
+        padding: 0.8em 0;
+    }
+
+    .section-span p{
+        font-size: 1.3em;
+        padding: 0.8em 0;
+    }
+
+    .section-text h1{
+        font-size: 3.5em;
+        padding: 0;
+        margin-bottom: 0.3em;
+    }
+
+    .section-text p{
+        font-size: 1.2em;
+    }
+
+    .section-text-input{
+        font-size: 1.3em;
+        width: 65%;
+    }
+
+    .input-area{
+        display: flex;
+    }
+
+    .section-join{
+        margin: 0;
+        margin-left: 0.5em;
+        width: 30%;
+        border-radius: 0.5em;
+        font-size: 1em;
+    }
+
+    .companies-logos{
+        margin-top: 4em;
+    }
+
+    .companies-logos p{
+        font-size: 1.3em;
+    }
+
+    .logos img{
+        width: 68px;
+        height: 68px;
+    }
+
+    .logos{
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    footer{
+        margin-top: 2em;
+    }
+
+    footer p{
+        font-size: 1.2em;
+    }
 }
 
 
