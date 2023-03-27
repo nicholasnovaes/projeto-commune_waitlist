@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+html, body{
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: #545454;
+}
+
+header{
+    margin-top: 1em;
+}
+
+.section-img{
+    display: none;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.6em;
+}
+
+.menu-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5em 0 0;
+}
+
+.menu-list li{
+    display: block;
+    width: 100%;
+    padding: 0.4em 0;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.menu-list li:hover{
+    color: white;
+    background-color: #372865;
+}
+
+.menu-list li:nth-child(5){
+    padding: 0;
+}
+
+.menu-join{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.4em 0;
+    background-color: #372865;
+}
+
+.contain{
+    padding: 0 0.6em;
+}
+
+section{
+    margin-top: 2em;
+}
+
+.section-span p{
+    padding: 0.8em;
+    border-radius: 2em;
+    background-color: #372865;
+    color: white;
+    text-align: center;
+}
+
+.section-span p a{
+    color: white;
+}
+
+.section-text h1{
+    padding: 0 1em;
+    color: #353252;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.section-text p{
+    text-align: center;
+    line-height: 1.5em;
+    padding: 0 1em;
+}
+
+.section-text-input{
+    width: 90%;
+    padding: 1em 1em;
+    color: #ccc;
+    border-radius: 0.4em;
+    border: 1px solid #ccc;
+}
+
+.section-join{
+    width: 100%;
+    padding: 1em 0;
+    margin-top: 0.6em;
+    color: white;
+    font-weight: 600;
+    background-color: #372865;
+    border: 1px solid transparent;
+    border-radius: 0.4em;
+}
+
+.companies-logos{
+    margin-top: 1.5em;
+}
+
+.companies-logos p{
+    font-weight: 700;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap: 0.8em;
+}
+
+footer{
+    margin-top: 1em;
+    padding: 0.2em 0.6em;
+    text-align: center;
+    background-color: #372865;
+}
+
+footer p {
+    color: white;
+}
+
+footer a{
+    color: white;
+    font-weight: bold;
+}
+
+

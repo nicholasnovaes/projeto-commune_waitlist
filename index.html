@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Commune Waitlist</title>
+</head>
+<body>
+
+    <header>
+        <div class="menu-logo">
+            <img src="icon/Logo.svg" alt="Logo Commune">
+            <img src="icon/Hamburger Menu.svg" alt="Hamburger Menu" onclick="clickMenu()">
+        </div>
+        <nav id="menu">
+            <ul class="menu-list">
+                <li>Features</li>
+                <li>Affiliates</li>
+                <li>Pricing</li>
+                <li>Communities</li>
+                <li><a href="#" class="menu-join">Join Waitlist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contain">
+        <section>
+            <div class="section-img">
+                <img src="image/Illustration.png" alt="Illustration" >
+            </div>
+            <div class="section-text">
+                <span class="section-span">
+                    <p>We are now allowing early-acess for users. <a href="#">Learn More</a></p>
+                </span>
+                <h1>Build a highly engaged community with no effort.</h1>
+                <p>Commune offers the tools you need to build a highly engaged community with little to no effort. Simply setup you Commune workspace, and manage everything from members to content from one central dashboard.</p>
+                <input type="email" placeholder="Enter your e-mail adresss" class="section-text-input">
+                <button class="section-join">Join WaitList</button>
+            </div>
+        </section>
+
+        <article class="companies-logos">
+            <p>Used by these companies:</p>
+            <div class="logos">
+                <img src="icon/Atlassian Icon.svg" alt="Atlassian icon">
+                <img src="icon/Behance Icon.svg" alt="Behance icon">
+                <img src="icon/Bing Icon.svg" alt="Bing icon">
+                <img src="icon/Bitbucket Icon.svg" alt="Bitbucket icon">
+                <img src="icon/Dropbox Icon.svg" alt="Dropbox icon">
+                <img src="icon/Twitch Icon.svg" alt="Twitch icon">
+                <img src="icon/Twitter Icon.svg" alt="Twiiter icon">
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>Web site by <a href="http://www.github.com/nicholasnovaes" target="_blank">Nicholas Novaes</a></p>
+    </footer>
+    
+
+    <script>
+
+        function clickMenu(){
+
+            if(menu.style.display == 'none'){
+                menu.style.display = 'block'
+            }else{
+                menu.style.display = 'none'
+            }
+        }
+
+    </script>
+</body>
+</html>
