@@ -183,7 +183,7 @@ footer a{
     }
 
     .section-text h1{
-        font-size: 3.5em;
+        font-size: 3em;
         padding: 0;
         margin-bottom: 0.3em;
     }
@@ -238,13 +238,21 @@ footer a{
 
 @media screen and (min-width:1024px) {
 
+    .contain{
+        padding: 0 6em;
+    }
+
+    .menu-logo{
+        margin-left:6em;
+    }
+
     .menu-hamb{
         display:none;
     }
 
     #menu{
         display: block;
-        margin: 0 6em;
+        margin-right:9em;
     }
 
     header{
@@ -259,6 +267,7 @@ footer a{
     }
 
     .menu-list li{
+        font-size: 1.1em;
         padding-left: 0.5em;
         padding-right: 0.5em;
         width: 6em;
@@ -273,8 +282,41 @@ footer a{
         width: 8em;
     }
 
-    .menu-join:hover{
-        
+    .section-img{
+        display: block;
+        justify-items: center;
     }
-    
+
+    .section-img{
+        width: 30%;
+    }
+
+    .section-text{
+        width: 60%;
+    }
+
+    .main-section{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .section-text h1{
+        font-size: 2.8em;
+        text-align: left;
+        padding: 0;
+    }
+
+    .section-text p{
+        font-size: 1em;
+        text-align: left;
+        padding: 0;
+    }
+
+    .section-span p{
+        text-align: center;
+        padding: 0.5em;
+    }
+
+
 }
