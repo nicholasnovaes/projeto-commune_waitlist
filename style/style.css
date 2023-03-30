@@ -44,7 +44,7 @@ header{
     transition: all 1s;
 }
 
-.menu-list li:hover{
+.menu-list li:hover:nth-child(1), .menu-list li:hover:nth-child(2), .menu-list li:hover:nth-child(3), .menu-list li:hover:nth-child(4){
     color: white;
     background-color: #372865;
 }
@@ -236,4 +236,45 @@ footer a{
     }
 }
 
+@media screen and (min-width:1024px) {
 
+    .menu-hamb{
+        display:none;
+    }
+
+    #menu{
+        display: block;
+        margin: 0 6em;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2em ;
+    }
+
+    .menu-list{
+        display: flex;
+        margin: 0;
+    }
+
+    .menu-list li{
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        width: 6em;
+    }
+
+
+    .menu-list li:nth-child(5){
+        padding-left: 0.5em;
+    }
+
+    .menu-join{
+        width: 8em;
+    }
+
+    .menu-join:hover{
+        
+    }
+    
+}
