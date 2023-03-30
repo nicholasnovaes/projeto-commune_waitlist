@@ -92,7 +92,7 @@ section{
     line-height: 1.5em;
 }
 
-.section-text p{
+.section-text-p{
     text-align: center;
     line-height: 1.5em;
     padding: 0 1em;
@@ -140,6 +140,7 @@ section{
 }
 
 
+
 footer{
     margin-top: 1em;
     padding: 0.2em 0.6em;
@@ -179,8 +180,8 @@ footer a{
     }
 
     .section-span p{
-        font-size: 1.3em;
-        padding: 0.8em 0;
+        font-size: 1.2em;
+        padding: 0.5em 0;
     }
 
     .section-text h1{
@@ -189,7 +190,7 @@ footer a{
         margin-bottom: 0.3em;
     }
 
-    .section-text p{
+    .section-text-p{
         font-size: 1.2em;
     }
 
@@ -308,7 +309,7 @@ footer a{
         padding: 0;
     }
 
-    .section-text p{
+    .section-text-p{
         font-size: 1em;
         text-align: left;
         padding: 0;
@@ -316,6 +317,7 @@ footer a{
 
     .section-span p{
         text-align: center;
+        font-size:1em ;
         padding: 0.5em;
     }
 
